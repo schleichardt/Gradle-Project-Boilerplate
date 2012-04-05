@@ -24,4 +24,7 @@ dependencies {
 
     // Libraries needed for scala api
     compile 'org.scala-lang:scala-library:2.8.1'
+
+    runtime 'commons-lang:commons-lang:2.6'
+    runtime 'commons-io:commons-io:2.1'
 }
