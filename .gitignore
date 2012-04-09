@@ -8,3 +8,6 @@ tmp
 *.iml
 *.ipr
 *.iws
+
+*~
+*.bak
