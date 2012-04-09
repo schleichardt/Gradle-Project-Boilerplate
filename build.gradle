@@ -6,13 +6,6 @@ apply plugin: 'eclipse'
 group = 'info.schleichardt'
 version = '0.1-SNAPSHOT'
 
-
-task "create-dirs" << {
-   sourceSets.all*.java.srcDirs*.each { it.mkdirs() }
-   sourceSets.all*.scala.srcDirs*.each { it.mkdirs() }
-   sourceSets.all*.resources.srcDirs*.each { it.mkdirs() }
-}
-
 repositories {
     mavenCentral()
 }
